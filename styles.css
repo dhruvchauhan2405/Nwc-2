@@ -140,7 +140,7 @@ body {
 .about-section {
   background-color: #282932;
   border-radius: 20px;
-  height: 500px;
+  /* height: 500px; */
 }
 
 .about-text {
@@ -198,6 +198,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+  text-decoration: underline;
 }
 
 .vision,
@@ -212,6 +213,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+  text-decoration: underline;
 }
 
 .mission-card {
@@ -255,4 +257,162 @@ body {
 .Welcome-full {
   background-color: #282932;
   color: white;
+}
+
+.navi {
+  position: sticky;
+  background-color: transparent !important;
+}
+
+.novo {
+  margin-left: 29%;
+}
+
+.nav-item {
+  color: white !important;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
+  font-weight: 500;
+}
+
+.free {
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 25vw;
+}
+
+.Welcome-full {
+  background-color: #282932;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.Welcome-message {
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.Welcome {
+  padding: 10px;
+  font-weight: 500;
+}
+
+.program-h1 {
+  font-size: 50px;
+  color: white;
+  text-decoration: underline;
+}
+
+.program-card {
+  margin: 0.7rem;
+  border-radius: 20px;
+}
+
+.program-message {
+  padding: 0.5rem;
+  background-color: #f95b5b;
+  color: white;
+  font-weight: 500;
+}
+
+.program-head {
+  background-color: #282932;
+  color: white;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.program-logo {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.programs,
+.vix {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+}
+
+.navi {
+  position: fixed;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+.clip {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.svg--source {
+  display: none;
+}
+
+.svg--icon {
+  width: 100%;
+  max-width: 3rem;
+  height: 100%;
+  max-height: 5rem;
+  display: block;
+  margin: 0 auto;
+  fill: currentColor;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.share {
+  width: 5rem;
+  height: 5rem;
+  float: left;
+  margin: 0.5rem 1rem 0.5rem 0;
+  color: #353c4a;
+  /* border: 0.125rem solid #f3f3f3; */
+  box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+  border-radius: 50%;
+  transition: 250ms;
 }
