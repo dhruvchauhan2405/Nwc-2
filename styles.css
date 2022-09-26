@@ -416,3 +416,9 @@ body {
   border-radius: 50%;
   transition: 250ms;
 }
+
+.svg {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+}
